@@ -111,7 +111,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://roundabout_sign/meshes/roundabout_sign.dae</uri>
+            <uri>model://prohibited_sign/meshes/notallowed_sign.dae</uri> <!--same circle shape with new roundabout sign --> 
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -139,7 +139,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://roundabout_sign/meshes/roundabout_sign.dae</uri>
+            <uri>model://prohibited_sign/meshes/notallowed_sign.dae</uri> <!--same circle shape with new roundabout sign -->
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
