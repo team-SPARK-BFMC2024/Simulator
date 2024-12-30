@@ -7,18 +7,24 @@
       name  = "GIR_Q"
       pkg   = "gazebo_ros"
       type  = "spawn_model"
-      args  = "-file $(find models_pkg)/roundabout_sign/model.sdf -sdf -model GIR_Q -x 8.766 -y -4.179 -z 0.078998 -R 0  -P 0  -Y 0"/>
+      args  = "-file $(find models_pkg)/roundabout_sign/model.sdf -sdf -model GIR_Q -x 14.92 -y 10.16 -z 0.078998 -R 0  -P 0  -Y 0"/>
 
   <node
       name  = "GIR_R"
       pkg   = "gazebo_ros"
       type  = "spawn_model"
-      args  = "-file $(find models_pkg)/roundabout_sign/model.sdf -sdf -model GIR_R -x 10.320 -y -4.869 -z 0.078998 -R 0  -P 0  -Y 1.570796"/>
+      args  = "-file $(find models_pkg)/roundabout_sign/model.sdf -sdf -model GIR_R -x 16.47 -y 9.45 -z 0.078998 -R 0  -P 0  -Y 1.570796"/>
   
   <node
       name  = "GIR_S"
       pkg   = "gazebo_ros"
       type  = "spawn_model"
-      args  = "-file $(find models_pkg)/roundabout_sign/model.sdf -sdf -model GIR_S -x 11.015 -y -3.297 -z 0.078998 -R 0  -P 0  -Y 3.141592"/>
+      args  = "-file $(find models_pkg)/roundabout_sign/model.sdf -sdf -model GIR_S -x 17.18 -y 11.04 -z 0.078998 -R 0  -P 0  -Y 3.141592"/>
+
+  <node
+      name  = "GIR_T"
+      pkg   = "gazebo_ros"
+      type  = "spawn_model"
+      args  = "-file $(find models_pkg)/roundabout_sign/model.sdf -sdf -model GIR_T -x 15.6 -y 11.7 -z 0.078998 -R 0  -P 0  -Y -1.617"/>
   
 </launch>

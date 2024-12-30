@@ -7,18 +7,18 @@
       name  = "DENY_V"
       pkg   = "gazebo_ros"
       type  = "spawn_model"
-      args  = "-file $(find models_pkg)/prohibited_sign/model.sdf -sdf -model DENY_V -x 3.323 -y -7.581 -z 0.078998 -R 0  -P 0  -Y 4.712388"/>
+      args  = "-file $(find models_pkg)/prohibited_sign/model.sdf -sdf -model DENY_V -x 15.5549 -y 1.4982 -z 0.078998 -R 0  -P 0  -Y 1.561741"/>
 
   <node
       name  = "DENY_X"
       pkg   = "gazebo_ros"
       type  = "spawn_model"
-      args  = "-file $(find models_pkg)/prohibited_sign/model.sdf -sdf -model DENY_X -x 2.387 -y -7.581 -z 0.078998 -R 0  -P 0  -Y 4.712388"/>
+      args  = "-file $(find models_pkg)/prohibited_sign/model.sdf -sdf -model DENY_X -x 15.0332 -y 1.5079 -z 0.078998 -R 0  -P 0  -Y 1.574803"/>
 
   <node
       name  = "DENY_G"
       pkg   = "gazebo_ros"
       type  = "spawn_model"
-      args  = "-file $(find models_pkg)/prohibited_sign/model.sdf -sdf -model DENY_G -x 11.578 -y -4.504 -z 0.078998 -R 0  -P 0  -Y 4.712388"/>
+      args  = "-file $(find models_pkg)/prohibited_sign/model.sdf -sdf -model DENY_G -x 6.8812 -y 3.3926 -z 0.078998 -R 0  -P 0  -Y -0.006696"/>
 
 </launch>

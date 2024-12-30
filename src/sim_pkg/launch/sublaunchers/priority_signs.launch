@@ -7,24 +7,36 @@
 	name  = "PRIOR_D"
 	pkg   = "gazebo_ros"
 	type  = "spawn_model"
-	args  = "-file $(find models_pkg)/priority_sign/model.sdf -sdf -model PRIOR_D -x 3.675 -y -13.050 -z 0.078998 -R 0  -P 0  -Y 3.141592"/>
+	args  = "-file $(find models_pkg)/priority_sign/model.sdf -sdf -model PRIOR_D -x 0.9877 -y 5.9276 -z 0.078998 -R 0  -P 0  -Y 1.570796"/>
 
   <node
 	name  = "PRIOR_F"
 	pkg   = "gazebo_ros"
 	type  = "spawn_model"
-	args  = "-file $(find models_pkg)/priority_sign/model.sdf -sdf -model PRIOR_F -x 0.204 -y -6.031 -z 0.078998 -R 0  -P 0  -Y 4.712388"/>
+	args  = "-file $(find models_pkg)/priority_sign/model.sdf -sdf -model PRIOR_F -x 0.11 -y 7.5 -z 0.078998 -R 0  -P 0  -Y -1.570796"/>
 
   <node
 	name  = "PRIOR_H"
 	pkg   = "gazebo_ros"
 	type  = "spawn_model"
-	args  = "-file $(find models_pkg)/priority_sign/model.sdf -sdf -model PRIOR_H -x 5.544 -y -11.381 -z 0.078998 -R 0  -P 0  -Y 1.570796"/>
+	args  = "-file $(find models_pkg)/priority_sign/model.sdf -sdf -model PRIOR_H -x 5.3736 -y 3.0297 -z 0.078998 -R 0  -P 0  -Y 1.570796"/>
 
   <node
 	name  = "PRIOR_I"
 	pkg   = "gazebo_ros"
 	type  = "spawn_model"
-	args  = "-file $(find models_pkg)/priority_sign/model.sdf -sdf -model PRIOR_I -x 4.589 -y -5.997 -z 0.078998 -R 0  -P 0  -Y 4.712388"/>
+	args  = "-file $(find models_pkg)/priority_sign/model.sdf -sdf -model PRIOR_I -x 4.5 -y 4.6442 -z 0.078998 -R 0  -P 0  -Y -1.570796"/>
+
+  <node
+	name  = "PRIOR_J"
+	pkg   = "gazebo_ros"
+	type  = "spawn_model"
+	args  = "-file $(find models_pkg)/priority_sign/model.sdf -sdf -model PRIOR_J -x 5.3736 -y 5.9184 -z 0.078998 -R 0  -P 0  -Y 1.570796"/>
+
+  <node
+	name  = "PRIOR_K"
+	pkg   = "gazebo_ros"
+	type  = "spawn_model"
+	args  = "-file $(find models_pkg)/priority_sign/model.sdf -sdf -model PRIOR_K -x 0.11 -y 4.6881 -z 0.078998 -R 0  -P 0  -Y -1.570796"/>
 
 </launch>

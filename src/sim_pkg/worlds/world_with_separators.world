@@ -17,7 +17,7 @@
       <direction>0 0 -1</direction>
     </light>
     <light name='c2' type='point'>
-      <pose frame=''>15 0 2 0 -0 0</pose>
+      <pose frame=''>20.66 0 2 0 -0 0</pose>
       <diffuse>125 125 125 125</diffuse>
       <specular>50 50 50 50</specular>
       <attenuation>
@@ -30,7 +30,7 @@
       <direction>0 0 -1</direction>
     </light>
     <light name='c3' type='point'>
-      <pose frame=''>0 -15 2 0 -0 0</pose>
+      <pose frame=''>0 13.8 2 0 -0 0</pose>
       <diffuse>125 125 125 125</diffuse>
       <specular>50 50 50 50</specular>
       <attenuation>
@@ -43,7 +43,7 @@
       <direction>0 0 -1</direction>
     </light>
     <light name='c4' type='point'>
-      <pose frame=''>15 -15 2 0 -0 0</pose>
+      <pose frame=''>20.66 13.8 2 0 -0 0</pose>
       <diffuse>125 125 125 125</diffuse>
       <specular>50 50 50 50</specular>
       <attenuation>
@@ -62,7 +62,7 @@
           <geometry>
             <plane>
               <normal>0 0 1</normal>
-              <size>14.68 14.99</size>
+              <size>20.66 13.8</size>
             </plane>
           </geometry>
           <surface>
@@ -89,7 +89,7 @@
           <geometry>
             <plane>
               <normal>0 0 1</normal>
-              <size>14.68 14.99</size>
+              <size>20.66 13.8</size>
             </plane>
           </geometry>
           <material>
@@ -108,7 +108,7 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>7.34 -7.495 0 0 -0 0</pose>
+      <pose frame=''>10.33 6.9 0 0 -0 0</pose>
     </model>
     <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
     <atmosphere type='adiabatic'/>

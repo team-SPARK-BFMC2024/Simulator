@@ -17,5 +17,5 @@
         name  = "roadblock"
         pkg   = "gazebo_ros"
         type  = "spawn_model"
-        args  = "-file $(find models_pkg)/roadblock/model.sdf -sdf -model roadblock -x 2.682368 -y -8.696889 -z 0.0 -R 0 -P 0 -Y 1.569651"/>  
+        args  = "-file $(find models_pkg)/roadblock/model.sdf -sdf -model roadblock -x 2.5285 -y 5.3472 -z 0.0 -R 0 -P 0 -Y 1.569651"/>  
  </launch>

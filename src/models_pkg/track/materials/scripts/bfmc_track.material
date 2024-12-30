@@ -11,7 +11,7 @@ material BFMC_MATERIAL
 
       texture_unit
 			{
- 				texture 2024_Small.png
+ 				texture 2025_map.png
 			}
     }
   }

@@ -7,18 +7,18 @@
       name  = "ONEWAY_J"
       pkg   = "gazebo_ros"
       type  = "spawn_model"
-      args  = "-file $(find models_pkg)/oneway_sign/model.sdf -sdf -model ONEWAY_J -x 3.341 -y -9.821 -z 0.078998 -R 0 -P 0 -Y 1.570796"/>
+      args  = "-file $(find models_pkg)/oneway_sign/model.sdf -sdf -model ONEWAY_J -x 3.1525 -y 4.5888 -z 0.078998 -R 0 -P 0 -Y 1.570796"/>
 
   <node
       name  = "ONEWAY_B"
       pkg   = "gazebo_ros"
       type  = "spawn_model"
-      args  = "-file $(find models_pkg)/oneway_sign/model.sdf -sdf -model ONEWAY_B -x 2.406 -y -9.821 -z 0.078998 -R 0 -P 0 -Y 1.570796"/>
+      args  = "-file $(find models_pkg)/oneway_sign/model.sdf -sdf -model ONEWAY_B -x 14.7629 -y 4.2964 -z 0.078998 -R 0 -P 0 -Y -3.128763"/>
   
   <node
       name  = "ONEWAY_E"
       pkg   = "gazebo_ros"
       type  = "spawn_model"
-      args  = "-file $(find models_pkg)/oneway_sign/model.sdf -sdf -model ONEWAY_E -x 9.196 -y -14.375 -z 0.078998 -R 0 -P 0 -Y 0"/>
+      args  = "-file $(find models_pkg)/oneway_sign/model.sdf -sdf -model ONEWAY_E -x 15.0136 -y 3.379 -z 0.078998 -R 0 -P 0 -Y -1.534743"/>
 
 </launch>
