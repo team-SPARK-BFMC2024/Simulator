@@ -7,7 +7,7 @@
       name  = "LHIGH_U"
       pkg   = "gazebo_ros"
       type  = "spawn_model"
-      args  = "-file $(find models_pkg)/leave_highway_sign/model.sdf -sdf -model LHIGH_U -x 6.3337 -y 12.4666 -z 0.078998 -R 0  -P 0  -Y -0.133770"/>
+      args  = "-file $(find models_pkg)/leave_highway_sign/model.sdf -sdf -model LHIGH_U -x 7.0602 -y 12.90749 -z 0.078998 -R 0  -P 0  -Y -0.133770"/>
   
   <!-- <node
       name  = "LHIGH_Z"
@@ -19,6 +19,6 @@
       name  = "LHIGH_H"
       pkg   = "gazebo_ros"
       type  = "spawn_model"
-      args  = "-file $(find models_pkg)/leave_highway_sign/model.sdf -sdf -model LHIGH_H -x 14.3279 -y 10.1428 -z 0.078998 -R 0  -P 0  -Y 2.915908"/>
+      args  = "-file $(find models_pkg)/leave_highway_sign/model.sdf -sdf -model LHIGH_H -x 13.6619 -y 9.7849 -z 0.078998 -R 0  -P 0  -Y 3.078574"/>
 
 </launch>

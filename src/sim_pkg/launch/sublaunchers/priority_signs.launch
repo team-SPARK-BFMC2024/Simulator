@@ -39,4 +39,10 @@
 	type  = "spawn_model"
 	args  = "-file $(find models_pkg)/priority_sign/model.sdf -sdf -model PRIOR_K -x 0.11 -y 4.6881 -z 0.078998 -R 0  -P 0  -Y -1.570796"/>
 
+  <node
+	name  = "PRIOR_L"
+	pkg   = "gazebo_ros"
+	type  = "spawn_model"
+	args  = "-file $(find models_pkg)/priority_sign/model.sdf -sdf -model PRIOR_L -x 4.1572 -y 0.1099 -z 0.078998 -R 0  -P 0  -Y -0.007836"/>
+
 </launch>

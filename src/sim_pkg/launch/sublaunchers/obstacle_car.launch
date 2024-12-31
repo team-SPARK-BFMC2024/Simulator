@@ -36,5 +36,5 @@
        name  = "obstacle_rcCar_6"
        pkg   = "gazebo_ros"
        type  = "spawn_model"
-       args  = "-file $(find models_pkg)/rcCar_assembly_obstacle/model.sdf -model obstacle_rcCar_6 -sdf -x 11.108 -y 1.96 -z 0.032939 -Y 1.523"/>
+       args  = "-file $(find models_pkg)/rcCar_assembly_obstacle/model.sdf -model obstacle_rcCar_6 -sdf -x 11.0122 -y 0.5594 -z 0.032939 -Y 0"/>
   </launch>

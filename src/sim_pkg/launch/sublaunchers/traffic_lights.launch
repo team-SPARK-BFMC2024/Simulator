@@ -12,7 +12,12 @@
       name  = "start"
       pkg   = "gazebo_ros"
       type  = "spawn_model"
-      args  = "-file $(find models_pkg)/traffic_light/model.sdf -sdf -model start -x 2.2095 -y 4.6663 -z 0 -R 0 -P 0 -Y 1.570801"/>
+      args  = "-file $(find models_pkg)/traffic_light/model.sdf -sdf -model start -x 12.0259 -y 1.7707 -z 0 -R 0 -P 0 -Y -3.131783"/>
+  <node
+      name  = "antimaster1"
+      pkg   = "gazebo_ros"
+      type  = "spawn_model"
+      args  = "-file $(find models_pkg)/traffic_light/model.sdf -sdf -model antimaster1 -x 2.2095 -y 4.6663 -z 0 -R 0 -P 0 -Y 1.570801"/>
 
   <node
       name  = "master"

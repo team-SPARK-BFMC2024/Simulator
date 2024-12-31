@@ -13,7 +13,7 @@
       name  = "STOP_C"
       pkg   = "gazebo_ros"
       type  = "spawn_model"
-      args  = "-file $(find models_pkg)/stop_sign/model.sdf -sdf -model STOP_C -x 4.272 -y 3.5 -z 0.078998 -R 0  -P 0  -Y 3.141592"/>
+      args  = "-file $(find models_pkg)/stop_sign/model.sdf -sdf -model STOP_C -x 3.4905 -y 7.1566 -z 0.078998 -R 0  -P 0  -Y 3.141592"/>
 
   <node
       name  = "STOP_E"
