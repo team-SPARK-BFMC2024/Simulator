@@ -19,6 +19,6 @@
       name  = "LHIGH_H"
       pkg   = "gazebo_ros"
       type  = "spawn_model"
-      args  = "-file $(find models_pkg)/leave_highway_sign/model.sdf -sdf -model LHIGH_H -x 13.6619 -y 9.7849 -z 0.078998 -R 0  -P 0  -Y 3.078574"/>
+      args  = "-file $(find models_pkg)/leave_highway_sign/model.sdf -sdf -model LHIGH_H -x 13.8195 -y 9.7952 -z 0.078998 -R 0  -P 0  -Y 3.078574"/>
 
 </launch>
